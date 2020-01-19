@@ -15,7 +15,7 @@
 <div class="container">   
         <div class="row">
             <div class="col-md-12">
-                <p id="header">Welcome To Your Timed Quiz!</p>
+                <h3 id="header">Welcome To Your Timed Quiz!</h3>
             </div>
         </div>
         <div id="startHere">
@@ -25,7 +25,7 @@
             <div class ="col-md-12">
                 <div class="box">
                     <h2 id="secure">Quiz Questions</h2>
-                    <p id="questionArea">My questions will appear here</p>
+                    <h6 id="questionArea">My questions will appear here</h6>
                     <br />
                     <hr>
                 </div>
@@ -40,20 +40,28 @@
 
         <div class="row">
             <div class="col-md-6">
-                <div id="suggestedOption1">????</div>
-                <button type="button" id="button1" class="btn btn-danger" onclick="userPrompts()">Answer Option 1</button>
+                <div id="suggestedOption1">
+                    <p id="option1">question here</p>
+                </div>
+                <button type="button" id="button1" class="questionButtons" onclick="userPrompts()">Answer Option 1</button>
                 <br>
-                <div id="suggestedOption2">????</div>
-                <button type="button" id="button2" class="btn btn-danger" onclick="userPrompts()">Answer Option 2</button>
+                <div class="suggestedOptions">
+                    <p id="option2">question here</p>
+                </div>
+                <button type="button" id="button2" class="questionButtons" onclick="userPrompts()">Answer Option 2</button>
             </div>       
                 
                 
                     <div class="col-md-6">
-                        <div id="suggestedOption3">????</div>
-                        <button type="button" id="button3"class="btn btn-danger" onclick="userPrompts()">Answer Option 3</button>
+                        <div class="suggestedOptions">
+                            <p id="option3">???</p>
+                        </div>
+                        <button type="button" id="button3"class="questionButtons" onclick="userPrompts()">Answer Option 3</button>
                         <br>
-                        <div id="suggestedOption4">???</div>
-                        <button type="button"id="button4" class="btn btn-danger" onclick="userPrompts()">Answer Option 4</button>
+                        <div class="suggestedOptions">
+                            <p id="option4">???</p>
+                        </div>
+                        <button type="button"id="button4" class="questionButtons" onclick="userPrompts()">Answer Option 4</button>
                     </div>
                 </div>    
                              
