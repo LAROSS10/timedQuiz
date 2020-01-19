@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    
+    <title>My test</title>
+</head>
+<body>
+    
+<div class="container">   
+        <div class="row">
+            <div class="col-md-12">
+                <p id="header">Welcome To Your Timed Quiz!</p>
+            </div>
+        </div>
+        <div id="startHere">
+            <button >Start Here</button>
+        </div>
+        <div class="row">
+            <div class ="col-md-12">
+                <div class="box">
+                    <h2 id="secure">Quiz Questions</h2>
+                    <p id="questionArea">My questions will appear here</p>
+                    <br />
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> 
+            <div class = "col-md-12">
+                <h4 id="boxPassword">Quiz Answer Options</h4>             
+            </div> 
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div id="suggestedOption1">????</div>
+                <button type="button" id="button1" class="btn btn-danger" onclick="userPrompts()">Answer Option 1</button>
+                <br>
+                <div id="suggestedOption2">????</div>
+                <button type="button" id="button2" class="btn btn-danger" onclick="userPrompts()">Answer Option 2</button>
+            </div>       
+                
+                
+                    <div class="col-md-6">
+                        <div id="suggestedOption3">????</div>
+                        <button type="button" id="button3"class="btn btn-danger" onclick="userPrompts()">Answer Option 3</button>
+                        <br>
+                        <div id="suggestedOption4">???</div>
+                        <button type="button"id="button4" class="btn btn-danger" onclick="userPrompts()">Answer Option 4</button>
+                    </div>
+                </div>    
+                             
+                    
+            <!-- <div class="col-md-6">
+                <button onclick ="pasteToClip()">Start Quiz</button>   
+                
+            </div>  -->
+                                
+</div>
+         
+
+<script src="script.js"></script>  
+
+ 
+</body>
+</html>

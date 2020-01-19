@@ -1,0 +1,59 @@
+#header {
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align:center;
+    font-size: 24px;
+    
+}
+
+#startHere {
+    text-align:center;
+    padding: 5px;
+}
+
+#questionArea {
+    padding: 5px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 90px;
+}
+
+.container { 
+    margin-top: auto;
+    height:600px;
+    width: 960px;
+    background-color:wheat;
+    border-style: solid;
+    padding: 50px;}
+
+
+
+
+
+#password {
+    opacity: 0.5;
+    border-style: dashed;
+    height: 100px;
+    width: 930px;
+    padding: 10px;
+
+}
+
+#button1 {
+    padding: 10 px;
+    margin: 20px;
+}
+#button2 {
+    padding: 10 px;
+    margin: 20px;
+}
+#button3 {
+    padding: 10 px;
+    margin: 20px;
+}
+#button4 {
+    padding: 10 px;
+    margin: 20px;
+}
