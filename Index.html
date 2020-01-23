@@ -3,79 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css2.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   
     
-    <title>My test</title>
+    <title>Document</title>
 </head>
 <body>
     
-<div class="container">   
-        <div class="row">
-            <div class="col-md-12">
-                <h3 id="header">Welcome To Your Timed Quiz!</h3>
-            </div>
-        </div>
-        <div id="startHere">
-            <button >Start Here</button>
-        </div>
-        <div class="row">
-            <div class ="col-md-12">
-                <div class="box">
-                    <h2 id="secure">Quiz Questions</h2>
-                    <h6 id="questionArea">My questions will appear here</h6>
-                    <br />
-                    <hr>
-                </div>
-            </div>
-        </div>
-
-        <div class="row"> 
-            <div class = "col-md-12">
-                <h4 id="boxPassword">Quiz Answer Options</h4>             
-            </div> 
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div id="suggestedOption1">
-                    <p id="option1">question here</p>
-                </div>
-                <button type="button" id="button1" class="questionButtons" onclick="userPrompts()">Answer Option 1</button>
-                <br>
-                <div class="suggestedOptions">
-                    <p id="option2">question here</p>
-                </div>
-                <button type="button" id="button2" class="questionButtons" onclick="userPrompts()">Answer Option 2</button>
-            </div>       
-                
-                
-                    <div class="col-md-6">
-                        <div class="suggestedOptions">
-                            <p id="option3">???</p>
-                        </div>
-                        <button type="button" id="button3"class="questionButtons" onclick="userPrompts()">Answer Option 3</button>
-                        <br>
-                        <div class="suggestedOptions">
-                            <p id="option4">???</p>
-                        </div>
-                        <button type="button"id="button4" class="questionButtons" onclick="userPrompts()">Answer Option 4</button>
-                    </div>
-                </div>    
-                             
-                    
-            <!-- <div class="col-md-6">
-                <button onclick ="pasteToClip()">Start Quiz</button>   
-                
-            </div>  -->
-                                
-</div>
-         
-
-<script src="script.js"></script>  
-
- 
+    <div class="container">
+        <div>
+        <h1 class="header">Welcome To Your Timed Quiz </h1>     
+       </div>
+<br>
+       <div>
+           <button type="button" class="btn btn-outline-success" onclick="quizStart()">Start Here</button>
+           <div class="timer">Timer:</div>
+       </div>
+       <br>
+       <div class="question">
+           <p id="questions">Your score is:</p>
+<br>
+       </div>
+       <!-- <div class="buttonsForAnswers">
+           <button type="button" class="btn btn-success" id="A">Answer A</button>
+           <Button type="button" class="btn btn-success" id="B">Answer B</Button>
+           <Button type="button" class="btn btn-success" id="C">Answer C</Button>
+           <Button type="button" class="btn btn-success" id="D">Answer D</Button>
+       </div> -->
+       <div id="timer"></div>
+        
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

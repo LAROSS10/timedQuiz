@@ -1,0 +1,50 @@
+.container {
+    margin: auto;
+    height:600px;
+    Width: 960px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: saddlebrown;
+
+}
+
+
+
+.header {
+    text-align: center;
+    background-color: salmon;
+    border-color: sienna;
+    padding: 10px;
+    margin: 5px;
+    Width: 960px;
+    Height:100px:
+}
+
+.timer{
+    margin:30px;
+    margin-left: 0px;
+    border-radius: 3.0px;
+    border-color: seagreen;
+    border-style: inset;
+    width: 90px;
+
+}
+
+.question {
+
+    height:150px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    border-style: dotted;
+    border-radius: 1px;
+}
+
+.buttonsForAnswers {
+    height:150px;
+    width: 500px;
+    padding: 5px;
+    margin: 3020px;
+  
+
+}
